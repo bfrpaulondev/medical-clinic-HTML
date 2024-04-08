@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VitalCare Medical Clinic - Contact</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            width: 100vw;
+            height: 100vh;
+        }
+        header {
+            background-color: #26A69A;
+            color: #FFFFFF;
+            text-align: center;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            position: absolute;
+            left: 20vw;
+            width: 80vw;
+            height: 5vw;
+        }
+        nav {
+            background-color: #408d86;
+            color: #FFFFFF;
+            flex: 1;
+            max-width: 20%;
+            min-height: 100vh;
+            padding: 20px;
+            overflow-y: auto;
+            height: 100vh;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        nav ul li {
+            padding: 10px;
+            text-align: center;
+        }
+        nav ul li a {
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+        main {
+            background-color: #E0F2F1;
+            position:absolute;
+            width: 80vw;
+            top: 7vh;
+            height: 85vh;
+            padding-bottom: 100px;
+            display:flex;
+            overflow: scroll;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            color: #263339;
+            left: 20vw;
+            padding: 20px;
+        }
+        footer {
+            background-color: #408d86;
+            color: #FFFFFF;
+            text-align: center;
+            height: 15vh;
+            position: absolute;
+            width: 80vw;
+            left: 20vw;
+            bottom: 0;
+        }
+        iframe {
+            width: 80%;
+            height: 50%;
+            margin-bottom: 20px;
+        }
+        form {
+            width: 80%;
+            margin-bottom: 20px;
+        }
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+        input[type="submit"],
+        input[type="reset"] {
+            padding: 10px 20px;
+            background-color: #26A69A;
+            color: #FFFFFF;
+            border: none;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        input[type="submit"]:hover,
+        input[type="reset"]:hover {
+            background-color: #408d86;
+        }
+        @media only screen and (max-width: 768px) {
+            nav {
+                max-width: 100%;
+            }
+            main {
+                flex: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="/assets/header_contact.png" alt="Contact Image" style="object-fit: contain;">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/pages/aboutUs.html">About</a></li>
+            <li><a href="/pages/HoursofOperation.html">Services</a></li>
+            <li><a href="/pages/contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Contact Us</h1>
+        <p>Feel free to reach out to us using the contact information below:</p>
+        <ul style="list-style: none; text-align: left; margin-bottom: 20px;">
+            <li>Phone: (XX) XXXX-XXXX</li>
+            <li>WhatsApp: (XX) XXXXX-XXXX</li>
+            <li>Address: 123 Flower Street, City, Country</li>
+        </ul>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1234.567890123456!2dLongitude!3dLatitude!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTPCsDIyJzE3LjYiUyA0wrAzMyc1Ni41Ilc!5e0!3m2!1sen!2sus!4v1627391465095!5m2!1sen!2sus" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <form action="#" method="POST">
+            <input type="text" name="name" placeholder="Name" required><br>
+            <input type="email" name="email" placeholder="Email" required><br>
+            <input type="text" name="subject" placeholder="Subject" required><br>
+            <textarea name="message" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Clear Form">
+        </form>
+    </main>
+    <footer>
+        <p>Contact us:</p>
+        <ul style="list-style: none;">
+            <li>Phone: (XX) XXXX-XXXX</li>
+            <li>WhatsApp: (XX) XXXXX-XXXX</li>
+            <li>Address: 123 Flower Street, City, Country</li>
+        </ul>
+    </footer>
+</body>
+</html>

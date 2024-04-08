@@ -1,66 +1,73 @@
-# HTML Track - Dio.me
-## Module 02 - HTML I - Basic Concepts
 
-# Medical Clinic HTML
-This project is part of the HTML Developer training from Digital Innovation One (DIO) and aims to create an "almost" complete website, using the basic HTML concepts covered in Module 02 of the course. The website consists of a fictional medical clinic, covering the topics of forms, structuring and formatting of text, media and tables.
+# Trilha HTML - Dio.me
 
-## Instructions
+## Módulo 02 - HTML I - Conceitos Básicos
 
-### Topics Covered:
-- Forms
-- Structuring and formatting text
-- Media
-- Tables
+Este desafio tem como objetivo criar um site "quase" completo, com tudo o que foi abordado neste módulo. Os temas incluem:
 
-In addition to other resources discussed in class!
+-   Formulários
+-   Estruturação e formatação de texto
+-   Mídias
+-   Tabelas
 
-### Project Requirements:
-1. Create a website for a medical clinic, being able to choose the specialty.
-2. The website must contain the following navigation menu:
-     - Main page
-     - About the clinic
-     - Opening hours
-     - Contact
-3. Use all the subjects covered in classes.
+Além de outros recursos discutidos nas aulas!
 
-## Page Structure
+## Instruções
 
-All pages will follow a pre-defined pattern, using the `template.html` file as a base. The structure includes:
-- **Menu:** Located the navigation menu.
-- **Header:** Header image.
-- **Footer:** Contact information.
-- **Content:** Specific content for each page.
+1.  Você deve criar um site de uma clínica médica (você escolhe a especialidade).
+2.  O site deve conter o seguinte menu de navegação:
+    -   Página Principal
+    -   Sobre a clínica
+    -   Horário de Atendimento
+    -   Contato
+3.  Deve-se utilizar todas os assuntos abordados nas aulas.
 
-### Main page
-- Image in **Header**.
-- Brief description about the clinic in **Content**.
-- **Menu** and **Footer** defaults on all pages.
+### Estrutura das páginas
 
-### About the Clinic
-- Different image in **Header**.
-- Text about the clinic in **Content**.
-- **Menu** and **Footer** defaults on all pages.
+Todas as páginas seguirão um padrão pré-definido. Como ainda não abordamos CSS, o arquivo `template.html` pode ser utilizado como base. Ele segue uma estrutura semelhante ao exemplo abaixo:
 
-### Opening Hours
-- Different image in **Header**.
-- Text about services and price list in **Content**.
-- **Menu** and **Footer** defaults on all pages.
+![Estrutura](https://i.stack.imgur.com/9jI6f.gif)
 
-### Contact
-- Different image in **Header**.
-- Contact information, Google map and contact form in **Content**.
-- **Menu** and **Footer** defaults on all pages.
+No **Menu**, será localizado o menu de navegação, no **Header** de cada página ficará uma imagem, no **Footer** informações de contato, e o **Content** é o conteúdo de cada página.
 
-## How to use
+## Páginas a serem criadas
 
-1. Clone this repository to your local machine.
-2. Open the `index.html` file in your browser to view the website.
-3. Explore the site's different pages and features.
+### Página Principal
 
-## Contribution
+-   Deve ter uma imagem no **Header**.
+-   Em **Content**, uma breve descrição sobre a clínica.
+-   **Menu** e **Footer** padrões em todas as páginas.
 
-Contributions are welcome! Feel free to open an issue to discuss new features or submit a pull request with improvements.
+### Sobre a clínica
 
-## License
+-   Deve ter uma imagem diferente no **Header**.
+-   Em **Content**, um texto falando sobre a clínica.
+-   **Menu** e **Footer** padrões em todas as páginas.
 
-This project is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+### Horário de Atendimento
+
+-   Deve ter uma imagem diferente no **Header**.
+-   Em **Content**, um pequeno texto falando sobre os serviços, e uma tabela de preços, onde cada linha é um serviço, com o preço de cada um de acordo com os dias da semana.
+-   **Menu** e **Footer** padrões em todas as páginas.
+
+### Contato
+
+-   Deve ter uma imagem diferente no **Header**.
+-   Em **Content** deve ter:
+    -   Os telefones de contato (celular e whatsapp)
+    -   Endereço completo da clínica
+    -   Um Iframe com o Google Maps apontando o endereço da clínica
+    -   Um formulário de contato com:
+        -   Nome (type="text")
+        -   E-mail (type="email")
+        -   Assunto (type="text")
+        -   Mensagem (textarea)
+        -   Botões de enviar e limpar formulário
+-   **Menu** e **Footer** padrões em todas as páginas.
+
+### Cores Utilizadas
+
+-   Cor de Destaque: #26A69A
+-   Cor de Fundo: #E0F2F1
+-   Cor de Texto Principal: #263339
+-   Cor do Texto Secundário: #728f9e
